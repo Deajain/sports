@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sports Equipment Management System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("abc.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+      
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+        .button-container a {
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 30px 60px;
+            border: none;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            background-color: #555;
+        }
+        .button:last-child {
+            background-color: #668fe1;
+        }
+        .button:hover {
+            background-color: #0703e9a1;
+            transform: scale(1.1);
+        }
+
+        .header {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 30px;
+            margin-top: 0;
+            font-size: 30px;
+            background-color: #333;
+            padding: 20px;
+        }
+      
+        .footer {
+            text-align: center;
+            margin-top: 310px;
+            padding: 30px;
+            background-color: #333;
+            color: #fff;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="font-size:xx-large;">Sports Equipment Management System</h1>
+    </div>
+    <div class="container">
+        <div class="button-container">
+            <a href="http://localhost/sportsproject/login.php/"><button class="button">Login</button></a>
+            <a href="http://localhost/sportsproject/signup.php/"><button class="button">Sign Up</button></a>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; <?php echo date("Y"); ?> Sports Equipment Management System. All rights reserved.</p>
+    </div>
+</body>
+</html>
